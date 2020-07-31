@@ -1,0 +1,20 @@
+{
+  "name": "test-rollup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "extended-css": "https://github.com/AdguardTeam/ExtendedCss.git#v1.2.11",
+    "jsdom": "^16.3.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "rollup": "^2.23.0",
+    "rollup-plugin-node-polyfills": "^0.2.1"
+  }
+}
